@@ -17,6 +17,7 @@ public class Author {
             return this.surnameAuthor;
         }
 
+
     public boolean equals(Object other) {
         if (this.getClass() != other.getClass()) {
             return false;

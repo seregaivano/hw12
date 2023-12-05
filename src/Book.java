@@ -23,7 +23,6 @@ public class Book {
     public Author getAuthor (){
         return this.author;
     }
-
     public boolean equals(Object other) {
         if (this.getClass() != other.getClass()) {
             return false;
