@@ -23,7 +23,7 @@ public class Book {
     public Author getAuthor (){
         return this.author;
     }
-    @Override
+
     public boolean equals(Object other) {
         if (this.getClass() != other.getClass()) {
             return false;
@@ -31,7 +31,7 @@ public class Book {
         Book c2 = (Book) other;
         return name.equals(c2.name);
     }
-    @Override
+
     public int hashCode() {
         return java.util.Objects.hash(name);
     }
