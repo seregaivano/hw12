@@ -1,6 +1,5 @@
 import java.util.Objects;
 public class Book {
-
     private String name;
     private int publisherYear;
     private Author author;

@@ -27,6 +27,7 @@ public class Author {
     public int hashCode() {
         return java.util.Objects.hash(nameAuthor, surnameAuthor);
     }
+
     public String toString() {
         return "Автор: " + this.nameAuthor + " " + this.surnameAuthor;
     }
